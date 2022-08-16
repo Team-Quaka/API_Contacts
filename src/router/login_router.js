@@ -3,11 +3,9 @@ const loginRouter = express.Router();
 
 
 loginRouter.post('/login', async (req, res) => {
-    res.status(200);
-    res.send();
+    return res.status(200).json();
 })
 
 loginRouter.post('/signup', async (req, res) => {
-    res.status(200);
-    res.send();
+    return res.status(200).json();
 })

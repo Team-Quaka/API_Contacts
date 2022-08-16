@@ -3,16 +3,14 @@ const contactRouter = express.Router();
 
 
 contactRouter.post('add-contact', async (req, res) => {
-    res.status(200);
-    res.send();    
+    return res.status(200).json();
 })
 
 contactRouter.get('get-contacts', () => {
-    res.status(200);
-    res.send();
+    return res.status(200).json();
 })
 
 contactRouter.put('edit-contact', (req, res) => {
-    res.status(200);
-    res.send();
+    return res.status(200).json();
+    
 })
