@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./src/webserver.js"
+    "dev": "nodemon ./src/webserver.js",
+    "web":"node ./src/webserver.js"
   },
   "repository": {
     "type": "git",
