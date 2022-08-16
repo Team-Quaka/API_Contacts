@@ -6,11 +6,11 @@ contactRouter.post('/add-contact', async (req, res) => {
     return res.status(200).json();
 });
 
-contactRouter.get('/get-contacts', () => {
+contactRouter.get('/get-contacts', async (req, res) => {
     return res.status(200).json();
 });
 
-contactRouter.put('/edit-contact', (req, res) => {
+contactRouter.put('/edit-contact', async (req, res) => {
     return res.status(200).json();
 
 });
