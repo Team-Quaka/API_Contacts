@@ -9,3 +9,6 @@ loginRouter.post('/login', async (req, res) => {
 loginRouter.post('/signup', async (req, res) => {
     return res.status(200).json();
 })
+
+
+module.exports = loginRouter
